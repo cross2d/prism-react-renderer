@@ -1,5 +1,5 @@
 {
-  "name": "prism-react-renderer",
+  "name": "@colin3dmax/prism-react-renderer",
   "version": "1.2.0",
   "description": "Renders highlighted Prism output using React",
   "sideEffects": false,
