@@ -38,4 +38,5 @@ module.exports = {
   yaml: true,
   java: true,
   solidity: true,
+  vue: true,
 };

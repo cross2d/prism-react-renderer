@@ -1,6 +1,10 @@
 import Prism from "./prism-core";
 import codegen from "codegen.macro";
 
+const { languages } = require("@colin3dmax/prismjs/components");
+
+console.log(languages);
+
 // Babel Codegen Macro:
 // Get a list of all prismjs languages and inline them here.
 // They should only depend on "Prism" being present in the current scope.
@@ -8,8 +12,8 @@ import codegen from "codegen.macro";
 codegen`
   const { readFileSync } = require('fs')
   const { dirname, join } = require('path')
-  const { languages } = require('prismjs/components')
-  const prismPath = dirname(require.resolve('prismjs'))
+  const { languages } = require('@colin3dmax/prismjs/components')
+  const prismPath = dirname(require.resolve('@colin3dmax/prismjs'))
 
   let output = '/* This content is auto-generated to include some prismjs language components: */\\n'
 
