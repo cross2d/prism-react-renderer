@@ -920,10 +920,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@colin3dmax/prismjs@^1.23.2":
-  version "1.23.2"
-  resolved "https://registry.npmjs.org/@colin3dmax/prismjs/-/prismjs-1.23.2.tgz"
-  integrity sha512-+oe8lyImyzZhg5vjhJv/xkP61rEV09wGtv85iAvTWI949Bioh5/meemb/cgU5lhj7ZDiw5HOFCiNFQvMU/5ifw==
+"@colin3dmax/prismjs@^1.23.4":
+  version "1.23.4"
+  resolved "https://registry.npmjs.org/@colin3dmax/prismjs/-/prismjs-1.23.4.tgz#e118e58a80cd4fc4084cff7364ce74d0c1263b94"
+  integrity sha512-NUyI4lEo2zHcG8H8rHDmdzS2GI3Sd8ZuVNCkLo7OsAFnm21wO8LRGK/RmgFBKFFdTILUgdYIYOGIqi9Esy3pxg==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"

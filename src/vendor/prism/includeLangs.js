@@ -37,6 +37,5 @@ module.exports = {
   wasm: true,
   yaml: true,
   java: true,
-  solidity: true,
   vue: true,
 };
