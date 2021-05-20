@@ -37,5 +37,11 @@ module.exports = {
   wasm: true,
   yaml: true,
   java: true,
+  php: true,
+  r: true,
+  perl: true,
+  rust: true,
+  ruby: true,
+  swift: true,
   vue: true,
 };
